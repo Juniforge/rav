@@ -1,0 +1,38 @@
+# Build directories
+/build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.cmake
+
+# IDE directories (Visual Studio Code, CLion, etc.)
+.vscode/
+.idea/
+
+# Compiled object files and executables
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.out
+rav
+
+# Temporary files from text editors
+*~
+*.swp
+*.bak
+
+# Log files
+*.log
+
+# Dependency directories (if you're using a package manager like vcpkg)
+vcpkg/
+conan/
+
+# Google Test build artifacts (if using Google Test)
+googletest/
+
+# If you have any other build or output directories, add them here:
+# /path/to/output/
